@@ -26,6 +26,7 @@ USAGE="USAGE
         exit 1
     else
         echo "Subject: $subject
+        
         $message" | "$sendmail" "$email"
     fi
 }
